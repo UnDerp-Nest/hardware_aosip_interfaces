@@ -21,5 +21,4 @@ import vendor.lineage.biometrics.fingerprint.inscreen@1.0;
 interface IFingerprintInscreen extends vendor.lineage.biometrics.fingerprint.inscreen@1.0::IFingerprintInscreen{
 
     switchHbm(bool enabled);
-    noDim() generates (bool status);
 };
